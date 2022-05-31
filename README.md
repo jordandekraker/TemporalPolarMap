@@ -19,5 +19,5 @@ NOTES:
 
 
 REFERENCES:
-DeKraker, Jordan, Stefan Köhler, and Ali R. Khan. "Surface-based hippocampal subfield segmentation." Trends in neurosciences 44, no. 11 (2021): 856-863.
-Choi, Pui Tung, and Lok Ming Lui. "Fast disk conformal parameterization of simply-connected open surfaces." Journal of Scientific Computing 65, no. 3 (2015): 1065-1090.
+- DeKraker, Jordan, Stefan Köhler, and Ali R. Khan. "Surface-based hippocampal subfield segmentation." Trends in neurosciences 44, no. 11 (2021): 856-863.
+- Choi, Pui Tung, and Lok Ming Lui. "Fast disk conformal parameterization of simply-connected open surfaces." Journal of Scientific Computing 65, no. 3 (2015): 1065-1090.
