@@ -18,7 +18,7 @@ antPole = TL(i);
 dist = perform_fast_marching_mesh(v,f,antPole);
 
 if makeGif
-fig = figure('units','normalized','outerposition',[0 0 1 1]);
+fig = figure;
 p1 = patch('faces',f,'vertices',v);
 axis equal tight;
 p1.FaceVertexCData = dist;
@@ -51,7 +51,7 @@ dist(rm) = [];
 mean_curv(rm) = [];
 
 if makeGif
-fig2 = figure('units','normalized','outerposition',[0 0 1 1]);
+fig2 = figure;
 p = patch('faces',f2,'vertices',v2);
 axis equal tight;
 drawnow;
@@ -93,7 +93,7 @@ map = map.*maxdist;
 
 if makeGif
 close all;
-fig = figure('units','normalized','outerposition',[0 0 1 1]);
+fig = figure;
 p = patch('faces',f2,'vertices',v2);
 p.FaceVertexCData = mean_curv;
 p.FaceColor = 'flat';
